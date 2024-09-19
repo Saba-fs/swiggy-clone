@@ -1,0 +1,356 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f56d;
+    max-width: 100%;
+  }
+  .navbar
+  {
+    padding:0 ;
+  }
+  #nav {
+    height: 10vh;
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    flex-direction: row;
+    
+  }
+  
+  #logo {
+    height: 12px;
+    width: 10px;
+    margin-top: 3px;
+    margin-left: 10vw;
+  }
+  #addr {
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 4vw;
+    color: black;
+  }
+  #list1 {
+    color: rgb(251, 99, 4);
+  }
+  li {
+    list-style: none;
+    display: inline;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: rgb(251, 99, 4);
+    cursor: pointer;
+  }
+  #ulid {
+    display: inline-flex;
+    flex-direction: row;
+    width: 600px;
+    padding: 40px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bolder;
+  }
+  #search {
+    padding-top: 7px;
+    position: relative;
+    padding-left: 2vh;
+    list-style: url('https://w7.pngwing.com/pngs/55/100/png-transparent-swiggy-hd-logo-thumbnail.png');
+  }
+  #offer {
+    padding-left: 2vh;
+    padding-top: 7px;
+  }
+  #help {
+    padding-left: 1vh;
+    padding-top: 7px;
+  }
+  
+  #in {
+    padding-left: 2vh;
+    padding-top: 7px;
+  }
+  #cart {
+    padding-left: 2vh;
+    padding-top: 7px;
+  }
+  .food1 {
+    display: flex;
+    height: 25vh;
+    margin-left: 3vw;
+    margin-top: 0dp;
+    gap: 3px;
+  }
+  .food1:hover {
+    cursor: pointer;
+  }
+  .text_bold {
+    font-size: 'poppins,sams-serif';
+    margin-left: 5vw;
+    font-weight: bolder;
+    font-size: 2vw;
+    margin-top: 0dp;
+  }
+  #first_item {
+    box-shadow: 100px 100px 200px 50px black;
+  }
+  #second_item {
+    display: inline-block;
+    padding: 0vh;
+    margin-left: 10vw;
+    margin-top: 6vh;
+    filter: brightness(98%);
+  }
+  .food2 {
+    display: flex;
+    height: 25vh;
+    margin-left: 5vw;
+    padding-top: 0vh;
+    gap: 50px;
+  }
+  .onef {
+    height: 160px;
+    width: 240px;
+    border-radius: 10px;
+  }
+  
+  .onef:hover {
+    transform: scale(1.1);
+  }
+  .twof {
+    height: 160px;
+    width: 242px;
+    border-radius: 10px;
+  }
+  .twof:hover {
+    transform: scale(1.1);
+  }
+  .food2:hover {
+    cursor: pointer;
+  }
+  .hotel1 {
+    height: 120px;
+    width: 235px;
+  }
+  .addressh {
+    font-family: 'IBM plex sens', sans-serif;
+    font-weight: bolder;
+  
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  .fooditemh {
+    font-family: 'Aerial Black', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  .starlogo {
+    height: 25px;
+    float: left;
+  }
+  #footer {
+    height: 20vh;
+    width: 100%;
+    margin-top: 25vh;
+    display: flex;
+    gap: 15px;
+    background-color: darkgray;
+    padding: 20px;
+  }
+  .play {
+    height: 8vh;
+    margin-top: 6px;
+    margin-left: 30px;
+  }
+  .head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 20vw;
+  
+    bottom: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .play:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  #dfooter {
+    height: 25vw;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    bottom: 3px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  .end:hover {
+    cursor: pointer;
+  }
+  .end {
+    color: rgb(152, 147, 147);
+  }
+  .endmele {
+    color: white;
+    font-family: 'Aerial Black', Gadget, sans-serif;
+    font-weight: bolder;
+    margin-left: 5vh;
+    position: relative;
+    font-size: larger;
+  }
+  .oth {
+    font-weight: bolder;
+    padding: 5px;
+  }
+  .add {
+    font-weight: 400;
+    color: rgb(142, 50, 50);
+  }
+ 
+  .hzero {
+    margin-left: 5vw;
+    margin-top: 5vh;
+  }
+  .hsec {
+    margin-left: 7vw;
+    margin-top: 30px;
+  }
+  .hfirst {
+    margin-left: 20vw;
+    margin-top: 30px;
+  }
+  .hthd {
+    margin-left: 5vw;
+    margin-top: 30px;
+  }
+  #swgname {
+    font-family: 'Aerial Black', Gadget, sans-serif;
+    color: #ffffff;
+    font-size: larger;
+    font-weight: bold;
+  }
+  #third_item {
+    display: inline-block;
+    padding-top: 10vh;
+    margin-left: 10vw;
+    margin-top: 6vh;
+    filter: brightness(98%);
+  }
+  #fourth_item {
+    display: inline-block;
+    padding-top: 10vh;
+    margin-left: 10vw;
+    margin-top: 6vh;
+    filter: brightness(98%);
+  }
+  #ulid {
+    display: inline-block;
+    float: left;
+    padding: 3px;
+  }
+  
+  .fa-solid {
+    margin: 5px;
+  }
+  .fa-regular {
+    margin: 5px;
+  }
+  
+  .fa-solid {
+    margin: 5px;
+  }
+  .fa-thin {
+    margin: 5px;
+  }
+  
+  .third {
+    display: flex;
+    align-items: center;
+  }
+  .down {
+    margin-top: 20px;
+  }
+  .down-in {
+    height: 60px;
+    width: 300px;
+    font-size: 15px;
+    border: 1px solid rgb(138, 136, 136);
+    margin-left: 50px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .third-out {
+    margin-left: 100px;
+  }
+  .third-p {
+    margin: 20px;
+    align-items: center;
+  }
+  
+  .h3-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 150px;
+  }
+  .fourth {
+    display: flex;
+    align-items: center;
+  }
+  .fourth-in {
+    height: 60px;
+    width: 640px;
+    border: 1px solid rgb(138, 136, 136);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 17px;
+  }
+  .filter-out {
+    margin-left: 150px;
+  }
+  .fourth-p {
+    margin: 20px;
+    align-items: center;
+  }
+  .sixth {
+    margin-top: 150px;
+    display: flex;
+  }
+  .sixth-p {
+    font-weight: 800;
+    font-size: 28px;
+  }
+  .sixth-in {
+    width: 50%;
+    background-color: rgb(240, 240, 245);
+  }
+  .sixth-p {
+    margin-left: 250px;
+    margin-top: 30px;
+  }
+  .sixth-img {
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  .w {
+    margin-bottom: 10px;
+  }
+  .food1 img {
+    border-radius: 120px;
+    padding: 2px;
+    margin-right: 60px;
+  }
+ 
+  .new {
+    width: 30px;
+  }
+  .header {
+    box-shadow: 100px 100px 200px 50px black;
+  }
